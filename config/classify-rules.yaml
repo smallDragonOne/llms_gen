@@ -1,0 +1,20 @@
+# Reference categories (AI will freely create new categories)
+reference_categories:
+  - name: 文档
+    priority: 1
+    patterns: ["/docs", "/documentation", "/guide", "/manual"]
+  - name: 博客
+    priority: 2
+    patterns: ["/blog", "/article", "/news", "/post"]
+  - name: 代码
+    priority: 3
+    patterns: ["/code", "/example", "/demo", "/snippet"]
+  - name: API参考
+    priority: 4
+    patterns: ["/api/reference", "/endpoint", "/swagger"]
+  - name: 教程
+    priority: 5
+    patterns: ["/tutorial", "/getting-started", "/learn", "/quickstart"]
+  - name: 关于
+    priority: 6
+    patterns: ["/about", "/team", "/contact"]

@@ -1,0 +1,25 @@
+exclude:
+  - pattern: "/(login|signin|signup|register|logout|auth)"
+    type: regex
+  - pattern: "/(search|query|find)"
+    type: regex
+  - pattern: "[?&](q|query|search|keyword)="
+    type: regex
+  - pattern: "[?&]page=\\d+"
+    type: regex
+  - pattern: "[?&](utm_|ref=|source=|fbclid=|gclid=)"
+    type: regex
+  - pattern: "\\.(pdf|zip|exe|jpg|png|gif|svg)$"
+    type: regex
+  - pattern: "/(admin|dashboard|settings|wp-admin)/?"
+    type: regex
+
+include:
+  - pattern: "/(docs|documentation|guide|tutorial)"
+    type: regex
+  - pattern: "/(api|reference|endpoint|swagger)"
+    type: regex
+  - pattern: "/(help|support|faq|knowledge-base)"
+    type: regex
+  - pattern: "/(getting-started|quickstart|intro)"
+    type: regex

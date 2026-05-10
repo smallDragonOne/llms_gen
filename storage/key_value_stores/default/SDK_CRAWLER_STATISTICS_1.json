@@ -1,0 +1,68 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 36,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 21,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2026-05-10T06:00:54.245Z",
+  "crawlerFinishedAt": "2026-05-10T06:00:55.855Z",
+  "statsPersistedAt": "2026-05-10T06:00:55.855Z",
+  "crawlerRuntimeMillis": 1653,
+  "crawlerLastStartTimestamp": 1778392854202,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 1,
+  "requestAvgFailedDurationMillis": 21,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 21,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {},
+  "errors": {
+    "file:///C:/Users/Administrator/Downloads/llms-generator/node_modules/got-scraping/node_modules/got/dist/source/core/index.js:198:21": {
+      "ECONNRESET": {
+        "RequestError": {
+          "Client network socket disconnected before secure TLS connection was established": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "node:_tls_wrap:1730:19": {
+      "ECONNRESET": {
+        "Error": {
+          "Client network socket disconnected before secure TLS connection was established": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "file:///C:/Users/Administrator/Downloads/llms-generator/node_modules/got-scraping/node_modules/got/dist/source/core/index.js:198:21": {
+      "ECONNRESET": {
+        "RequestError": {
+          "Client network socket disconnected before secure TLS connection was established": {
+            "count": 3
+          }
+        }
+      }
+    },
+    "node:_tls_wrap:1730:19": {
+      "ECONNRESET": {
+        "Error": {
+          "Client network socket disconnected before secure TLS connection was established": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}
